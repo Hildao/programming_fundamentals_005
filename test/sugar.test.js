@@ -76,7 +76,7 @@ describe("Object.max", () => {
   });
 });
 
-describe.only("Object.clone", () => {
+describe("Object.clone", () => {
   test("returns a copy of the object", () => {
     const person1 = {
       name: "Sally",
@@ -199,7 +199,7 @@ describe("Object.sum", () => {
   });
 });
 
-describe("Object.invert", () => {
+describe.only("Object.invert", () => {
   test("returns a new object which is the inversion of the given object", () => {
     const original = {
       name: "Sally",
