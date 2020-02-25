@@ -90,7 +90,7 @@ describe("Object.clone", () => {
   });
 });
 
-describe.only("Object.get", () => {
+describe("Object.get", () => {
   test("returns the value for the given key", () => {
     expect(
       Object.get(
@@ -136,7 +136,7 @@ describe.only("Object.get", () => {
   });
 });
 
-describe("Object.has", () => {
+describe.only("Object.has", () => {
   test("returns true if the object has the give key", () => {
     const obj1 = { name: "Sally", location: "Leeds" };
     expect(Object.has(obj1, "name")).toBe(true);
